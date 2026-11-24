@@ -1,8 +1,8 @@
 import SwiftUI
-import ActivityForecastKit
+import LocationActivitiesKit
 
 @main
-struct ActivityForecastApp: App {
+struct LocationActivitiesApp: App {
     private let container: AppContainer
     @State private var searchViewModel: CitySearchViewModel
 

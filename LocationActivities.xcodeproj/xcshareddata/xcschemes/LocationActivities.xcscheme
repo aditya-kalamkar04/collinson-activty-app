@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF0000000000000000000006"
-               BuildableName = "ActivityForecast.app"
-               BlueprintName = "ActivityForecast"
-               ReferencedContainer = "container:ActivityForecast.xcodeproj">
+               BuildableName = "LocationActivities.app"
+               BlueprintName = "LocationActivities"
+               ReferencedContainer = "container:LocationActivities.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,10 +33,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ActivityForecastKitTests"
-               BuildableName = "ActivityForecastKitTests"
-               BlueprintName = "ActivityForecastKitTests"
-               ReferencedContainer = "container:Packages/ActivityForecastKit">
+               BlueprintIdentifier = "LocationActivitiesKitTests"
+               BuildableName = "LocationActivitiesKitTests"
+               BlueprintName = "LocationActivitiesKitTests"
+               ReferencedContainer = "container:Packages/LocationActivitiesKit">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -56,9 +56,9 @@
          <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF0000000000000000000006"
-               BuildableName = "ActivityForecast.app"
-               BlueprintName = "ActivityForecast"
-               ReferencedContainer = "container:ActivityForecast.xcodeproj">
+               BuildableName = "LocationActivities.app"
+               BlueprintName = "LocationActivities"
+               ReferencedContainer = "container:LocationActivities.xcodeproj">
             </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -73,9 +73,9 @@
          <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF0000000000000000000006"
-               BuildableName = "ActivityForecast.app"
-               BlueprintName = "ActivityForecast"
-               ReferencedContainer = "container:ActivityForecast.xcodeproj">
+               BuildableName = "LocationActivities.app"
+               BlueprintName = "LocationActivities"
+               ReferencedContainer = "container:LocationActivities.xcodeproj">
             </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

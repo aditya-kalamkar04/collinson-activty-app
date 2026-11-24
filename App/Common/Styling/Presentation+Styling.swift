@@ -1,5 +1,5 @@
 import SwiftUI
-import ActivityForecastKit
+import LocationActivitiesKit
 
 // Presentation-only mapping (SF Symbols, colours) lives in the app target, so the
 // domain package stays free of SwiftUI.

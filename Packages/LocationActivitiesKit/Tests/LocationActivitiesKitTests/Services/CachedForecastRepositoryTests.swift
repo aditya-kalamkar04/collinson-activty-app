@@ -1,6 +1,6 @@
 import Foundation
 import Testing
-@testable import ActivityForecastKit
+@testable import LocationActivitiesKit
 
 @Suite("CachedForecastRepository")
 struct CachedForecastRepositoryTests {

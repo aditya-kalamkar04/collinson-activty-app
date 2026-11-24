@@ -1,5 +1,5 @@
 import SwiftUI
-import ActivityForecastKit
+import LocationActivitiesKit
 
 /// Renders any `ViewState` the same way across the app. Screens only describe the
 /// idle and loaded content; loading, empty, and error look identical everywhere.

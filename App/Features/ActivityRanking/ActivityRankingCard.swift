@@ -1,5 +1,5 @@
 import SwiftUI
-import ActivityForecastKit
+import LocationActivitiesKit
 
 struct ActivityRankingCard: View {
     let rank: Int

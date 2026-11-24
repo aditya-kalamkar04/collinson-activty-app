@@ -1,5 +1,5 @@
 import Foundation
-@testable import ActivityForecastKit
+@testable import LocationActivitiesKit
 
 extension City {
     static let london = City(

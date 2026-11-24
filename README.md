@@ -1,4 +1,4 @@
-# Activity Forecast
+# Location Activities
 
 An iOS app that takes a city or town and ranks how good the next 7 days look for skiing, surfing, outdoor sightseeing and indoor sightseeing. Weather comes from Open-Meteo's Geocoding and Forecast APIs. There's no backend and no API key.
 
@@ -18,9 +18,9 @@ Loading, empty, offline and server-error states are all handled, with retry and 
 
 Requirements: Xcode 16 or later (Swift 6, Swift Testing) and iOS 17+.
 
-1. Open `ActivityForecast.xcworkspace`.
-2. Wait a few seconds while Xcode resolves the local `ActivityForecastKit` package.
-3. Select the `ActivityForecast` scheme and an iPhone simulator, then press Run (⌘R).
+1. Open `LocationActivities.xcworkspace`.
+2. Wait a few seconds while Xcode resolves the local `LocationActivitiesKit` package.
+3. Select the `LocationActivities` scheme and an iPhone simulator, then press Run (⌘R).
 
 The simulator needs no signing setup. To run on a physical device, choose your team under Signing & Capabilities.
 
@@ -31,19 +31,19 @@ The project uses Xcode 16's folder-synchronised groups. Any Swift file you add u
 Everything except the SwiftUI views lives in a local Swift package, so the tests run without a simulator:
 
 ```bash
-cd Packages/ActivityForecastKit
+cd Packages/LocationActivitiesKit
 swift test
 ```
 
-You can also press ⌘U in Xcode. The `ActivityForecast` scheme's test action runs the package's test suites.
+You can also press ⌘U in Xcode. The `LocationActivities` scheme's test action runs the package's test suites.
 
 ## Project layout
 
 ```
-ActivityForecast.xcworkspace           open this
-ActivityForecast.xcodeproj             app target + local package reference + shared scheme
+LocationActivities.xcworkspace           open this
+LocationActivities.xcodeproj             app target + local package reference + shared scheme
 App/                                   SwiftUI app target (thin)
-  ActivityForecastApp.swift            entry point
+  LocationActivitiesApp.swift            entry point
   DI/AppContainer.swift                composition root, injected via Environment
   Features/CitySearch/                 search screen
   Features/ActivityRanking/            ranking screen, card, daily row
@@ -51,8 +51,8 @@ App/                                   SwiftUI app target (thin)
   Common/Styling/                      SF Symbols and colours for domain types
   PreviewSupport/                      offline fakes for SwiftUI previews
 
-Packages/ActivityForecastKit/
-  Sources/ActivityForecastKit/
+Packages/LocationActivitiesKit/
+  Sources/LocationActivitiesKit/
     Models/                            City, DailyForecast, Activity, WeatherCondition, ActivityReport
     Domain/
       Repositories/                    protocols the domain depends on
@@ -64,7 +64,7 @@ Packages/ActivityForecastKit/
       Cache/                           CachedForecastRepository (actor)
     Features/                          @Observable view models
     Common/                            ViewState, UserFacingError, DayLabelFormatter
-  Tests/ActivityForecastKitTests/      Swift Testing suites + test doubles
+  Tests/LocationActivitiesKitTests/      Swift Testing suites + test doubles
 ```
 
 ## Main assumptions

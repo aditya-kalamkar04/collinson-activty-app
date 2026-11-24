@@ -1,6 +1,6 @@
 import Foundation
 import SwiftUI
-import ActivityForecastKit
+import LocationActivitiesKit
 
 /// Composition root: the one place that knows about concrete types.
 ///

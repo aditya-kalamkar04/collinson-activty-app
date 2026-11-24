@@ -1,4 +1,4 @@
-@testable import ActivityForecastKit
+@testable import LocationActivitiesKit
 
 extension ViewState {
     var isIdle: Bool {

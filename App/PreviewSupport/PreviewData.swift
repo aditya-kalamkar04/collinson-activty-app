@@ -1,6 +1,6 @@
 #if DEBUG
 import Foundation
-import ActivityForecastKit
+import LocationActivitiesKit
 
 /// Offline fakes for SwiftUI previews. The ranking preview runs the real scoring code on
 /// made-up weather, so tweaking a scorer shows up in the canvas immediately.

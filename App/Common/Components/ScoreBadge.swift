@@ -1,5 +1,5 @@
 import SwiftUI
-import ActivityForecastKit
+import LocationActivitiesKit
 
 /// "72 · Good" capsule, coloured by rating. Colour is never the only signal: the word
 /// is always shown too, for colour-blind users.

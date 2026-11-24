@@ -1,5 +1,5 @@
 import SwiftUI
-import ActivityForecastKit
+import LocationActivitiesKit
 
 /// Seven small bars, one per day: shows the shape of the week at a glance.
 struct ScoreBarsView: View {

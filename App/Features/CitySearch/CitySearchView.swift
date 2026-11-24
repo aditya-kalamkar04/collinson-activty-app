@@ -1,5 +1,5 @@
 import SwiftUI
-import ActivityForecastKit
+import LocationActivitiesKit
 
 struct CitySearchView: View {
     @Environment(\.appContainer) private var container
@@ -30,7 +30,7 @@ struct CitySearchView: View {
                 }
                 .listStyle(.plain)
             }
-            .navigationTitle("Activity Forecast")
+            .navigationTitle("Location Activities")
             .searchable(
                 text: Binding(get: { viewModel.query }, set: { viewModel.updateQuery($0) }),
                 placement: .navigationBarDrawer(displayMode: .always),

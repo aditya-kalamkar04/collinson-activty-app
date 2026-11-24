@@ -1,5 +1,5 @@
 import Testing
-@testable import ActivityForecastKit
+@testable import LocationActivitiesKit
 
 @Suite("ScoreCurve")
 struct ScoreCurveTests {

@@ -1,5 +1,5 @@
 import SwiftUI
-import ActivityForecastKit
+import LocationActivitiesKit
 
 struct ActivityRankingView: View {
     @State private var viewModel: ActivityRankingViewModel

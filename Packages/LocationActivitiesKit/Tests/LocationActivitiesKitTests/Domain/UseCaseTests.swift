@@ -1,6 +1,6 @@
 import Foundation
 import Testing
-@testable import ActivityForecastKit
+@testable import LocationActivitiesKit
 
 /// Scores each day by its high temperature, so tests can dictate scores precisely.
 private struct TemperatureEchoScorer: ActivityScoring {

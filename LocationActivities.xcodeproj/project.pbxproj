@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF000000000000000000000A /* ActivityForecastKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF000000000000000000000C /* ActivityForecastKit */; };
+		AF000000000000000000000A /* LocationActivitiesKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF000000000000000000000C /* LocationActivitiesKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF0000000000000000000005 /* ActivityForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0000000000000000000005 /* LocationActivities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationActivities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF000000000000000000000A /* ActivityForecastKit in Frameworks */,
+				AF000000000000000000000A /* LocationActivitiesKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +45,7 @@
 		AF0000000000000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF0000000000000000000005 /* ActivityForecast.app */,
+				AF0000000000000000000005 /* LocationActivities.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,9 +53,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF0000000000000000000006 /* ActivityForecast */ = {
+		AF0000000000000000000006 /* LocationActivities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF000000000000000000000E /* Build configuration list for PBXNativeTarget "ActivityForecast" */;
+			buildConfigurationList = AF000000000000000000000E /* Build configuration list for PBXNativeTarget "LocationActivities" */;
 			buildPhases = (
 				AF0000000000000000000007 /* Sources */,
 				AF0000000000000000000008 /* Frameworks */,
@@ -68,12 +68,12 @@
 			fileSystemSynchronizedGroups = (
 				AF0000000000000000000004 /* App */,
 			);
-			name = ActivityForecast;
+			name = LocationActivities;
 			packageProductDependencies = (
-				AF000000000000000000000C /* ActivityForecastKit */,
+				AF000000000000000000000C /* LocationActivitiesKit */,
 			);
-			productName = ActivityForecast;
-			productReference = AF0000000000000000000005 /* ActivityForecast.app */;
+			productName = LocationActivities;
+			productReference = AF0000000000000000000005 /* LocationActivities.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +91,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF000000000000000000000D /* Build configuration list for PBXProject "ActivityForecast" */;
+			buildConfigurationList = AF000000000000000000000D /* Build configuration list for PBXProject "LocationActivities" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -101,14 +101,14 @@
 			mainGroup = AF0000000000000000000002;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				AF000000000000000000000B /* XCLocalSwiftPackageReference "Packages/ActivityForecastKit" */,
+				AF000000000000000000000B /* XCLocalSwiftPackageReference "Packages/LocationActivitiesKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AF0000000000000000000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF0000000000000000000006 /* ActivityForecast */,
+				AF0000000000000000000006 /* LocationActivities */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +196,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Activity Forecast";
+				INFOPLIST_KEY_CFBundleDisplayName = "Location Activities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -207,7 +207,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.collinson.exercise.ActivityForecast;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collinson.exercise.LocationActivities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 6.0;
@@ -222,7 +222,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Activity Forecast";
+				INFOPLIST_KEY_CFBundleDisplayName = "Location Activities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -233,7 +233,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.collinson.exercise.ActivityForecast;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collinson.exercise.LocationActivities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 6.0;
@@ -244,7 +244,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF000000000000000000000D /* Build configuration list for PBXProject "ActivityForecast" */ = {
+		AF000000000000000000000D /* Build configuration list for PBXProject "LocationActivities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF000000000000000000000F /* Debug */,
@@ -253,7 +253,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF000000000000000000000E /* Build configuration list for PBXNativeTarget "ActivityForecast" */ = {
+		AF000000000000000000000E /* Build configuration list for PBXNativeTarget "LocationActivities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF0000000000000000000011 /* Debug */,
@@ -265,16 +265,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		AF000000000000000000000B /* XCLocalSwiftPackageReference "Packages/ActivityForecastKit" */ = {
+		AF000000000000000000000B /* XCLocalSwiftPackageReference "Packages/LocationActivitiesKit" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = Packages/ActivityForecastKit;
+			relativePath = Packages/LocationActivitiesKit;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AF000000000000000000000C /* ActivityForecastKit */ = {
+		AF000000000000000000000C /* LocationActivitiesKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = ActivityForecastKit;
+			productName = LocationActivitiesKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

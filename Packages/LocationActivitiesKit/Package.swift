@@ -4,16 +4,16 @@ import PackageDescription
 // Everything that isn't SwiftUI lives here so it can be tested with `swift test`
 // in a few seconds, without booting a simulator.
 let package = Package(
-    name: "ActivityForecastKit",
+    name: "LocationActivitiesKit",
     platforms: [.iOS(.v17), .macOS(.v14)],
     products: [
-        .library(name: "ActivityForecastKit", targets: ["ActivityForecastKit"])
+        .library(name: "LocationActivitiesKit", targets: ["LocationActivitiesKit"])
     ],
     targets: [
-        .target(name: "ActivityForecastKit"),
+        .target(name: "LocationActivitiesKit"),
         .testTarget(
-            name: "ActivityForecastKitTests",
-            dependencies: ["ActivityForecastKit"]
+            name: "LocationActivitiesKitTests",
+            dependencies: ["LocationActivitiesKit"]
         )
     ]
 )

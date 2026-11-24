@@ -1,5 +1,5 @@
 import Testing
-@testable import ActivityForecastKit
+@testable import LocationActivitiesKit
 
 // Expected numbers below were worked out by hand from the weights in each scorer.
 // If you retune a scorer, these are the tests that should change, on purpose.
