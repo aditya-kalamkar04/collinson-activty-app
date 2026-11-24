@@ -43,13 +43,7 @@ private struct ActivityReportList: View {
                     Text("\(report.city.subtitle) · next \(report.days.count) days")
                 }
             } footer: {
-                Text("Scores run from 0 to 100 and are worked out from the daily forecast. Surfing rates the weather only; wave data isn't included.")
-            }
-
-            Section("Daily forecast") {
-                ForEach(report.days) { day in
-                    DayForecastRow(day: day, dayLabels: dayLabels)
-                }
+                Text("Scores run from 0 to 100 and are worked out from the 7-day weather forecast. Surfing rates the weather only; wave data isn't included.")
             }
         }
         .listStyle(.insetGrouped)

@@ -10,7 +10,7 @@ That led to three product decisions:
 
 - **Rank the activities, then show the best day for each.** A weekly score on its own hides the one great powder day in an otherwise grim week, and that's often the day that matters.
 - **Every score comes with a reason.** "62" means nothing. "Light winds (11 km/h), high of 23°" is something you can trust or argue with. Each scorer returns a one-line summary next to its number.
-- **Show the raw daily forecast under the rankings.** That way the scores can be checked against the weather they came from.
+- **An activity planner, not a weather app.** The screen shows rankings only, with no raw forecast table. The weather that matters for each day is already in that day's one-line reason, so a separate forecast list would repeat it and push the rankings down.
 
 ## 2. Scoring model
 
@@ -93,5 +93,5 @@ Not covered: SwiftUI views (snapshot tests would be next) and an end-to-end UI t
 > Fill this in with your own process. The brief says AI use is fine but poor verification isn't, so be specific about what you checked.
 
 - What I generated with AI assistance: …
-- What I checked myself and how (ran `swift test`, ran the app against real cities such as Chamonix, Biarritz, Pune and London, compared scores with the daily forecast, checked API field names against the Open-Meteo docs): …
+- What I checked myself and how (ran `swift test`, ran the app against real cities such as Chamonix, Biarritz, Pune and London, compared scores with the Open-Meteo forecast for the same days, checked API field names against the Open-Meteo docs): …
 - What I changed or rejected after review: …

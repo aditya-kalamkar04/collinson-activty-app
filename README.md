@@ -11,7 +11,6 @@ My reasoning, assumptions and trade-offs are in [DECISIONS.md](DECISIONS.md). Th
    - a 0–100 score for the week and a rating (Excellent / Good / Fair / Poor)
    - its best day, with a one-line reason ("12 cm fresh snow, high of -3°")
    - seven bars showing how the week shapes up
-3. Below the rankings is a plain daily forecast, so you can check the scores against the weather behind them.
 
 Loading, empty, offline and server-error states are all handled, with retry and pull-to-refresh.
 
