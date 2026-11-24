@@ -10,6 +10,10 @@ let package = Package(
         .library(name: "ActivityForecastKit", targets: ["ActivityForecastKit"])
     ],
     targets: [
-        .target(name: "ActivityForecastKit")
+        .target(name: "ActivityForecastKit"),
+        .testTarget(
+            name: "ActivityForecastKitTests",
+            dependencies: ["ActivityForecastKit"]
+        )
     ]
 )

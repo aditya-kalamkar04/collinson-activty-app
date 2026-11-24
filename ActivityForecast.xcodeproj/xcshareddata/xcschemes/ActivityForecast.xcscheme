@@ -29,6 +29,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ActivityForecastKitTests"
+               BuildableName = "ActivityForecastKitTests"
+               BlueprintName = "ActivityForecastKitTests"
+               ReferencedContainer = "container:Packages/ActivityForecastKit">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
